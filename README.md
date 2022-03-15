@@ -27,4 +27,7 @@ User can see the products and add items to his carts,remove items from his cart 
 ![Screenshot (60)](https://user-images.githubusercontent.com/72699920/158396324-b4564fcf-db59-400d-a9f4-dcccd022546a.png)
 
 
+**Note**:As we know our information is stored in database even though we have checked out in amazon and flipkart so we have imitated that process maintained an backup database which keeps track of the orders of the user.
+
+
 
