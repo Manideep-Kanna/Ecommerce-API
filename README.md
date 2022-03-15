@@ -3,9 +3,11 @@ The following API is an clone for the Amazon or Flipkart website it contains all
 
 The code itself is production ready and fully documented so even by seeing code you can get an idea of what is actually happening .
 
-We have written unit test cases for each controller functionality.
+We have written **unit test cases** for each controller functionality.
 
-As we know we dont have an frontend for APIs but we have used swagger which is actually an Open documented API which specifies all of the functionalities in an page. We can see each functionality as below photos.
+As we know we dont have an frontend for APIs but we have used **swagger** which is actually an Open documented API which specifies all of the functionalities in an page. We can see each functionality as below photos.
+
+We have also deployed this API in **Azure** during testing wheather it is working or not in an real world environment,It worked fine.
 
 So we have divided this API into two parts 
 1.Admin
