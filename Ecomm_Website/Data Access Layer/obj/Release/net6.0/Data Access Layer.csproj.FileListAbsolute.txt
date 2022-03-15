@@ -1,0 +1,14 @@
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\bin\Release\net6.0\Data Access Layer.deps.json
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\bin\Release\net6.0\Data Access Layer.runtimeconfig.json
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\bin\Release\net6.0\Data Access Layer.dll
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\bin\Release\net6.0\ref\Data Access Layer.dll
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\bin\Release\net6.0\Data Access Layer.pdb
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.csproj.AssemblyReference.cache
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.AssemblyInfo.cs
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.dll
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\ref\Data Access Layer.dll
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.pdb
+C:\Users\vatsitar\Desktop\My Works\Trail\Sapient_Mock_Project\Ecomm_Website\Data Access Layer\obj\Release\net6.0\Data Access Layer.genruntimeconfig.cache

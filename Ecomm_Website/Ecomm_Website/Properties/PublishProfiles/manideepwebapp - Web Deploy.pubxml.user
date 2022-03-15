@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEsqSnu6ag0GrMKYRiKFhAAAAAAACAAAAAAADZgAAwAAAABAAAAAMRU0C2jHD6w0OpqhAySY0AAAAAASAAACgAAAAEAAAAEQNVdsFeQu38vVB0v/1H6CAAAAAWhVdDrBGl5NWkqacpl1sjUeJ/OHRpLNoYL7H08y3T1s/7OL1Ya8g1hufmX9lRKMtYTYjmv1Ja1MaPNj9iD3IB/xu/Ywn/74x0PJYG1Wa4EGyJgjv3HJJCZTRCgnXlBE2/mt6ueQJzbhQq0/Kgac4m7m7vxiNp3RYiICOnXkEhUIUAAAAJZL8hQ19nhzpLBodi/Go2qGilpg=</EncryptedPassword>
+    <History>True|2022-03-09T05:52:52.2304578Z;True|2022-03-09T11:15:02.0784266+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:manideepserver.database.windows.net,1433%3bInitial Catalog=manideepdatabase%3bPersist Security Info=False%3bUser ID=manideep%3bPassword=12345%40abc%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

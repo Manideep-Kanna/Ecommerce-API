@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5e1fbef2-66c4-4d9d-a91a-ffb81b69dae4": {
+      "ProjectGuid": "5e1fbef2-66c4-4d9d-a91a-ffb81b69dae4",
+      "DisplayName": "Ecomm_Website",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c8df0dcf-e809-4eb5-8e09-a136c9485130": {
+      "ProjectGuid": "c8df0dcf-e809-4eb5-8e09-a136c9485130",
+      "DisplayName": "Data Access Layer",
+      "ColorIndex": 1
+    },
+    "09731582-3321-4dec-a210-90753c77d539": {
+      "ProjectGuid": "09731582-3321-4dec-a210-90753c77d539",
+      "DisplayName": "Business_Layer",
+      "ColorIndex": 2
+    },
+    "27708d77-123b-4c8a-923f-30297a3393b0": {
+      "ProjectGuid": "27708d77-123b-4c8a-923f-30297a3393b0",
+      "DisplayName": "Unit Test",
+      "ColorIndex": 3
+    },
+    "6dcfa605-8ed7-4f3d-8691-b0f5ef56edcf": {
+      "ProjectGuid": "6dcfa605-8ed7-4f3d-8691-b0f5ef56edcf",
+      "DisplayName": "Unit Test",
+      "ColorIndex": 4
+    },
+    "d5205d08-a14f-43f6-859b-f172a59e5a94": {
+      "ProjectGuid": "d5205d08-a14f-43f6-859b-f172a59e5a94",
+      "DisplayName": "Ecommerce_API_Test",
+      "ColorIndex": 5
+    },
+    "c84db20b-80b7-4d20-a98f-fb3bffc6b0c8": {
+      "ProjectGuid": "c84db20b-80b7-4d20-a98f-fb3bffc6b0c8",
+      "DisplayName": "Testing",
+      "ColorIndex": 6
+    },
+    "a6e10de6-3f0a-43c2-bcea-e55e20dbfb0d": {
+      "ProjectGuid": "a6e10de6-3f0a-43c2-bcea-e55e20dbfb0d",
+      "DisplayName": "web-api-test",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}
