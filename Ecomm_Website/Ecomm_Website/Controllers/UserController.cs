@@ -93,7 +93,7 @@ namespace Ecomm_Website.Controllers
         /// <returns>List of Cart views</returns>
 
         [HttpGet("GetAllCartItems/{user_id}")]
-        public ActionResult<List<ViewCartItems>> GetProductsInCart([FromHeader]int user_id)
+        public ActionResult<List<ViewCartItems>> GetProductsInCart(int user_id)
         {
             var products = _context.GetProductsInCart(user_id);
             if (products == null) return BadRequest(new ViewResponseMessage { Message = "There is No User With That specific User Id" });
@@ -121,7 +121,7 @@ namespace Ecomm_Website.Controllers
         /// <returns>Operation is successfull or not</returns>
 
         [HttpDelete("RemoveProductFromCart")]
-        public ActionResult<ViewResponseMessage> DeleteProductFromCart([FromHeader] int user_id, int product_id)
+        public ActionResult<ViewResponseMessage> DeleteProductFromCart(int user_id, int product_id)
         {
             var res = _context.DeleteProductFromCart(user_id, product_id);
             if (res == null) return BadRequest(new ViewResponseMessage { Message = "There is some wrong with the details you have entered" });
@@ -134,7 +134,7 @@ namespace Ecomm_Website.Controllers
         /// <returns>Operation is successfull or not</returns>
 
         [HttpGet("TotalCostOfCart")]
-        public ActionResult<ViewResponseMessage> CostOfItemsInCart([FromHeader]int userId)
+        public ActionResult<ViewResponseMessage> CostOfItemsInCart(int userId)
         {
             var res = _context.CostOfItemsInCart(userId);
             if (res == null) return BadRequest(new ViewResponseMessage { Message = "There is some wrong with the details you have entered" });
@@ -148,7 +148,7 @@ namespace Ecomm_Website.Controllers
         /// <param name="payment">Cash from User</param>
         /// <returns>Operation is successfull or not</returns>
         [HttpGet("CheckOut")]
-        public ActionResult<ViewResponseMessage> CheckOut([FromHeader]int userId,int payment)
+        public ActionResult<ViewResponseMessage> CheckOut(int userId,int payment)
         {
             return _context.CheckOut(userId,payment);
         }
@@ -174,7 +174,7 @@ namespace Ecomm_Website.Controllers
         /// <returns>Object of Comments</returns>
 
         [HttpGet("GetComments")]
-        public ActionResult<object> GetComments([FromHeader]int ProductId)
+        public ActionResult<object> GetComments(int ProductId)
         {
             return _context.GetComments(ProductId);
         }

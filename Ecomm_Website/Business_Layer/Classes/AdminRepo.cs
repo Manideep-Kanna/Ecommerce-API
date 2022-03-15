@@ -38,6 +38,7 @@ namespace Business_Layer
             product.Name = requestproduct.Name;
             product.Price = requestproduct.Price;
             product.Category_Id=requestproduct.Category_Id;
+            product.Status= requestproduct.Status;
             try
             {
                 _context.SaveChanges();

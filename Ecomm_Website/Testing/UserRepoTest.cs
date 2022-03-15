@@ -26,9 +26,10 @@ namespace Testing
             _context.Products.Add(new Product { Id = 3, Name = "I PAD", Price = 70000, Category_Id = 2 });
             _context.Carts.Add(new Cart { CartId = 1, User_Id = 1 });
             _context.Carts.Add(new Cart { CartId = 2, User_Id = 2 });
-            _context.Cart_Items.Add(new Cart_Item { Id = 1, Cart_Id = 1, Product_Id = 2,Count=1 });
+            _context.Cart_Items.Add(new Cart_Item { Id = 1, Cart_Id = 1, Product_Id = 2, Count = 1 });
             _context.Cart_Items.Add(new Cart_Item { Id = 2, Cart_Id = 1, Product_Id = 1, Count = 2 });
             _context.Users.Add(new User { Id = 1, Name = "Kanna" });
+            _context.Users.Add(new User { Id = 2, Name = "Karthik" });
             _context.SaveChanges();
         }
 
@@ -84,7 +85,7 @@ namespace Testing
         [Order(7)]
         public void DeleteProductFromCartTest()
         {
-            UserRepository.DeleteProductFromCart(1,3);
+            UserRepository.DeleteProductFromCart(1, 3);
             var products = UserRepository.GetProductsInCart(1);
             Assert.AreEqual(products.Count, 2);
         }
@@ -99,7 +100,7 @@ namespace Testing
         [Order(9)]
         public void CheckOut()
         {
-             UserRepository.CheckOut(1,200000);
+            UserRepository.CheckOut(1, 200000);
             var products = UserRepository.GetProductsInCart(1);
             Assert.AreEqual(products.Count, 0);
         }
