@@ -10,6 +10,7 @@ As we know we dont have an frontend for APIs but we have used **swagger** which 
 We have also deployed this API in **Azure** during testing wheather it is working or not in an real world environment,It worked fine.
 
 So we have divided this API into two parts 
+
 1.Admin
 
 2.User
