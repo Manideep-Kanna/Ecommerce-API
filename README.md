@@ -15,7 +15,7 @@ So we have divided this API into two parts
 
 2.User
 
-**Technologies:** **C#** , **Dotnet6** , **Azure** , **ASP.NET WEB API** , **Nunit** , **SQL Server**
+**Technologies:** **C#** , **.NET6** , **Azure** , **ASP.NET WEB API** , **Nunit** , **SQL Server**
 
 **Admin:**
 Admin can insert products,categories he can able to do all CRUD operations on these. the relationship between tables is given by foreign key 
